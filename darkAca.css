@@ -95,7 +95,7 @@
     width: 8%;
   }
   .accordion ul:hover li:hover {
-    width: 60%;
+    width: 100%;
   }
   .accordion ul:hover li:hover a {
     background: rgba(0, 0, 0, 0.4);

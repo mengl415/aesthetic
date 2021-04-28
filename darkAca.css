@@ -87,7 +87,7 @@
     background-image: url("./assets/darkaca/darkAcademia6.jpg");
     background-size: cover;
   }
-  .accordian ul li:nth-child(7) {
+  .accordion ul li:nth-child(7) {
       background-image: url("./assets/darkaca/darkAcademia7.jpg");
       background-size: cover;
   }

@@ -87,7 +87,7 @@
   background-image: url("./assets/cottagecore/cottageCore6.jpg");
   background-size: cover;
 }
-.accordian ul li:nth-child(7) {
+.accordion ul li:nth-child(7) {
     background-image: url("./assets/cottagecore/cottageCore7.jpg");
     background-size: cover;
 }

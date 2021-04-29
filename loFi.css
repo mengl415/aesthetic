@@ -1,0 +1,125 @@
+body{
+    font-family: "Lemon", cursive;
+}
+
+.title{
+    text-align: center;
+    font-size: 2.5rem;
+  }
+
+.accordion {
+    width: 100%;
+    max-width: 1080px;
+    height: 100%;
+    overflow: hidden;
+    margin: 50px auto;
+  }
+  .accordion ul {
+    width: 100%;
+    display: table;
+    table-layout: fixed;
+    margin: 0;
+    padding: 0;
+  }
+  .accordion ul li {
+    display: table-cell;
+    vertical-align: bottom;
+    position: relative;
+    width: 14.286%;
+    height: 75vh;
+    background-repeat: no-repeat;
+    background-position: center center;
+    transition: all 500ms ease;
+  }
+  .accordion ul li div {
+    display: block;
+    overflow: hidden;
+    width: 100%;
+  }
+  .accordion ul li div a {
+    display: block;
+    height: 250px;
+    width: 100%;
+    position: relative;
+    z-index: 3;
+    vertical-align: bottom;
+    padding: 15px 20px;
+    box-sizing: border-box;
+    color: #fff;
+    text-decoration: none;
+    transition: all 200ms ease;
+  }
+  .accordion ul li div a * {
+    opacity: 0;
+    margin: 0;
+    width: 100%;
+    text-overflow: ellipsis;
+    position: relative;
+    z-index: 5;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateX(-20px);
+    transition: all 400ms ease;
+  }
+  .accordion ul li div a h2 {
+    text-overflow: clip;
+    font-size: 24px;
+    text-transform: uppercase;
+    margin-bottom: 2px;
+    top: 160px;
+  }
+  .accordion ul li div a p {
+    top: 160px;
+    font-size: 13.5px;
+  }
+  .accordion ul li:nth-child(1) {
+    background-image: url("./assets/lofi/lofi1.jpg");
+    background-size: cover;
+  }
+  .accordion ul li:nth-child(2) {
+    background-image: url("./assets/lofi/lofi2.jpg");
+      background-size: cover;
+  }
+  .accordion ul li:nth-child(3) {
+    background-image: url("./assets/lofi/lofi3.jpg");
+    background-size: cover;
+  }
+  .accordion ul li:nth-child(4) {
+    background-image: url("./assets/lofi/lofi4.jpg");
+    background-size: cover;
+  }
+  .accordion ul li:nth-child(5) {
+    background-image: url("./assets/lofi/lofi5.jpg");
+    background-size: cover;
+  }
+  .accordion ul li:nth-child(6) {
+    background-image: url("./assets/lofi/lofi6.jpg");
+    background-size: cover;
+  }
+  .accordion ul li:nth-child(7) {
+      background-image: url("./assets/lofi/lofi7.jpg");
+      background-size: cover;
+  }
+  .accordion ul:hover li {
+    width: 8%;
+  }
+  .accordion ul:hover li:hover {
+    width: 100%;
+  }
+  .accordion ul:hover li:hover a {
+    background: rgba(0, 0, 0, 0.4);
+  }
+  .accordion ul:hover li:hover a * {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  
+  @media screen and (max-width: 375px) {
+    body {
+      margin: 0;
+    }
+  }
+
+  
+
+  

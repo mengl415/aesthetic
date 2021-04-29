@@ -10,46 +10,55 @@
     <!-- import the webpage's stylesheet -->
     <link rel="stylesheet" href="./style.css" />
     <link rel="stylesheet" href="./reset.css" />
-
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
-      rel="icon"
-      type="image/png"
-      href="./assets/pinkclouds.jpg"
+      href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
     />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Aref+Ruqaa&family=Eagle+Lake&family=Grenze+Gotisch&family=Gugi&family=Imprima&family=Jura&family=Lekton&family=Lemon&family=Lora&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="icon" type="image/png" href="./assets/pinkclouds.jpg" />
 
     <!-- import the webpage's javascript file -->
     <script src="./script.js" defer></script>
   </head>
   <body>
-    <h2>click on an aesthetic:</h2>
-    <ul style="list-style-type: none;">
-        <li class="cottageCore">
-            <button onclick = "cottagePage()">cottagecore</button>
-        </li>
-        <li class="darkA">
-            <button onclick = "darkAcaPage()">dark academia</button>
-        </li>
-        <li class="devilCore">
-            <button onclick = "devilPage()">devilcore</button>
-        </li>
-        <li class="eGirl">
-            <button onclick = "eGirlPage()">e-girl</button>
-        </li>
-        <li class="fairyCore">
-            <button onclick = "fairyPage()">fairycore</button>
-        </li>
-        <li class="loFi"> 
-            <button onclick = "loFiPage()">lo-fi</button>
-        </li>
-        <li class="moriKei">
-            <button onclick = "moriKeiPage()">mori kei</button>
-        </li>
-        <li class="spaceCore">
-            <button onclick = "spacePage()">spacecore</button>
-        </li>
-        <li class="vaporwave">
-            <button onclick = " vaporwavePage()">vaporwave</button>
-        </li>
-    </ul>
+    <h2 class="title">click on an aesthetic:</h2>
+    <div class="container">
+      <div class="grid" style="list-style-type: none">
+        <div class="aesthetic">
+          <div class="cottageCore" onclick="cottagePage()">cottagecore</div>
+        </div>
+        <div class="aesthetic">
+          <div class="darkA" onclick="darkAcaPage()">dark academia</div>
+        </div>
+        <div class="aesthetic">
+          <div class="devilCore" onclick="devilPage()">devilcore</div>
+        </div>
+        <div class="aesthetic">
+          <div class="eGirl" onclick="eGirlPage()">e-girl</div>
+        </div>
+        <div class="aesthetic">
+          <div class="fairyCore" onclick="fairyPage()">fairycore</div>
+        </div>
+        <div class="aesthetic">
+          <div class="loFi" onclick="loFiPage()">lo-fi</div>
+        </div>
+        <div class="aesthetic">
+          <div class="moriKei" onclick="moriKeiPage()">mori kei</div>
+        </div>
+        <div class="aesthetic">
+          <div class="spaceCore" onclick="spacePage()">spacecore</div>
+        </div>
+        <div class="aesthetic">
+          <div class="vaporwave" onclick=" vaporwavePage()">vaporwave</div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>

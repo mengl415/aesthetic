@@ -1,45 +1,85 @@
 body {
-    margin: 1rem;
-    padding: 1rem;
+  margin: 1rem;
+  padding: 1rem;
 }
 
-h2{
-    font-size: 2.5rem;
-    color: blue;
+h2 {
+  font-size: 2.5rem;
 }
 
-.cottageCore{
-    font-size: 2rem;
+.title {
+  text-align: center;
+  font-family: "Inconsolata", monospace;
+  font-weight: 500;
+}
+
+.container {
+  padding-top: 2rem;
+  margin: auto 0;
+}
+
+.grid {
+  width: 60%;
+  display: grid;
+  flex-direction: column;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10rem;
+  grid-column-gap: 15rem;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+}
+
+.aesthetic {
+  align-self: center;
+  justify-self: center;
+  text-align: center;
+}
+
+.cottageCore {
+  font-size: 2rem;
+  font-family: "Aref Ruqaa", serif;
 }
 
 .darkA {
-    font-size: 2rem;
+  display: table-cell;
+  font-size: 1.8rem;
+  font-family: "Eagle Lake", cursive;
+  vertical-align: bottom;
+  white-space: nowrap;
 }
 
-.devilCore{
-    font-size: 2rem;
+.devilCore {
+  font-size: 2rem;
+  font-family: "Grenze Gotisch", cursive;
 }
 
-.eGirl{
-    font-size: 2rem;
+.eGirl {
+  font-size: 2rem;
+  font-family: "Gugi", cursive;
 }
 
-.fairyCore{
-    font-size: 2rem;
+.fairyCore {
+  font-size: 2rem;
+  font-family: "Imprima", sans-serif;
 }
 
-.loFi{
-    font-size: 2rem;
+.loFi {
+  font-size: 2rem;
+  font-family: "Lemon", cursive;
 }
 
 .moriKei {
-    font-size: 2rem;
+  font-size: 2rem;
+  font-family: "Lora", serif;
 }
 
-.spaceCore{
-    font-size: 2rem;
+.spaceCore {
+  font-size: 2rem;
+  font-family: "Jura", sans-serif;
 }
 
-.vaporwave{
-    font-size: 2rem;
+.vaporwave {
+  font-size: 2rem;
+  font-family: "Lekton", sans-serif;
 }

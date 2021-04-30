@@ -74,31 +74,31 @@ body{
     font-size: 13.5px;
   }
   .accordion ul li:nth-child(1) {
-    background-image: url("./assets/morikei/moriKei1.png");
+    background-image: url("./assets/vaporwave/vaporwave1.jpg");
     background-size: cover;
   }
   .accordion ul li:nth-child(2) {
-    background-image: url("./assets/morikei/moriKei2.jpg");
+    background-image: url("./assets/vaporwave/vaporwave2.jpg");
       background-size: cover;
   }
   .accordion ul li:nth-child(3) {
-    background-image: url("./assets/morikei/moriKei3.png");
+    background-image: url("./assets/vaporwave/vaporwave3.png");
     background-size: cover;
   }
   .accordion ul li:nth-child(4) {
-    background-image: url("./assets/morikei/moriKei4.jpg");
+    background-image: url("./assets/vaporwave/vaporwave4.jpg");
     background-size: cover;
   }
   .accordion ul li:nth-child(5) {
-    background-image: url("./assets/morikei/moriKei5.jpg");
+    background-image: url("./assets/vaporwave/vaporwave5.png");
     background-size: cover;
   }
   .accordion ul li:nth-child(6) {
-    background-image: url("./assets/morikei/moriKei6.png");
+    background-image: url("./assets/vaporwave/vaporwave6.jpg");
     background-size: cover;
   }
   .accordion ul li:nth-child(7) {
-      background-image: url("./assets/morikei/moriKei7.jpg");
+      background-image: url("./assets/vaporwave/vaporwave7.jpg");
       background-size: cover;
   }
   .accordion ul:hover li {

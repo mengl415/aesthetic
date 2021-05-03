@@ -9,10 +9,9 @@ body{
 
 .accordion {
     width: 100%;
-    max-width: 1080px;
     height: 100%;
     overflow: hidden;
-    margin: 50px auto;
+    margin: 0 auto;
   }
   .accordion ul {
     width: 100%;
@@ -75,6 +74,7 @@ body{
   .accordion ul li:nth-child(1) {
     background-image: url("./assets/devilcore/devilCore1.png");
     background-size: cover;
+    
   }
   .accordion ul li:nth-child(2) {
     background-image: url("./assets/devilcore/devilCore2.jpg");
@@ -100,19 +100,22 @@ body{
       background-image: url("./assets/devilcore/devilCore7.jpg");
       background-size: cover;
   }
+  .accordion ul li:nth-child(8) {
+      background-image: url("./assets/devilcore/devilCore8.png");
+      background-size: cover;
+  }
+.accordion ul li:nth-child(9) {
+      background-image: url("./assets/devilcore/devilCore9.jpg");
+      background-size: cover;
+  }
+
   .accordion ul:hover li {
     width: 8%;
   }
   .accordion ul:hover li:hover {
-    width: 100%;
+    width: 30%;
   }
-  .accordion ul:hover li:hover a {
-    background: rgba(0, 0, 0, 0.4);
-  }
-  .accordion ul:hover li:hover a * {
-    opacity: 1;
-    transform: translateX(0);
-  }
+ 
   
   @media screen and (max-width: 375px) {
     body {

@@ -9,10 +9,9 @@ body{
 
 .accordion {
   width: 100%;
-  max-width: 1080px;
   height: 100%;
   overflow: hidden;
-  margin: 50px auto;
+  margin: 0 auto;
 }
 .accordion ul {
   width: 100%;
@@ -21,6 +20,7 @@ body{
   margin: 0;
   padding: 0;
 }
+
 .accordion ul li {
   display: table-cell;
   vertical-align: bottom;
@@ -100,19 +100,21 @@ body{
     background-image: url("./assets/cottagecore/cottageCore7.jpg");
     background-size: cover;
 }
+.accordion ul li:nth-child(8) {
+  background-image: url("./assets/cottagecore/cottageCore8.jpg");
+  background-size: cover;
+}
+.accordion ul li:nth-child(9) {
+  background-image: url("./assets/cottagecore/cottageCore9.jpg");
+  background-size: cover;
+}
 .accordion ul:hover li {
   width: 8%;
 }
 .accordion ul:hover li:hover {
-  width: 60%;
+  width: 30%;
 }
-.accordion ul:hover li:hover a {
-  background: rgba(0, 0, 0, 0.4);
-}
-.accordion ul:hover li:hover a * {
-  opacity: 1;
-  transform: translateX(0);
-}
+
 
 @media screen and (max-width: 375px) {
   body {

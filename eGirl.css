@@ -9,10 +9,9 @@ body{
 
 .accordion {
     width: 100%;
-    max-width: 1080px;
     height: 100%;
     overflow: hidden;
-    margin: 50px auto;
+    margin: 0 auto;
   }
   .accordion ul {
     width: 100%;
@@ -73,45 +72,46 @@ body{
     font-size: 13.5px;
   }
   .accordion ul li:nth-child(1) {
-    background-image: url("./assets/devilcore/devilCore1.png");
+    background-image: url("./assets/egirl/eGirl1.png");
     background-size: cover;
   }
   .accordion ul li:nth-child(2) {
-    background-image: url("./assets/devilcore/devilCore2.jpg");
+    background-image: url("./assets/egirl/eGirl2.jpg");
       background-size: cover;
   }
   .accordion ul li:nth-child(3) {
-    background-image: url("./assets/devilcore/devilCore3.png");
+    background-image: url("./assets/egirl/eGirl3.jpg");
     background-size: cover;
   }
   .accordion ul li:nth-child(4) {
-    background-image: url("./assets/devilcore/devilCore4.jpg");
+    background-image: url("./assets/egirl/eGirl5.png");
     background-size: cover;
   }
   .accordion ul li:nth-child(5) {
-    background-image: url("./assets/devilcore/devilCore5.png");
+    background-image: url("./assets/egirl/eGirl4.jpg");
     background-size: cover;
   }
   .accordion ul li:nth-child(6) {
-    background-image: url("./assets/devilcore/devilCore6.jpg");
+    background-image: url("./assets/egirl/eGirl6.jpg");
     background-size: cover;
   }
   .accordion ul li:nth-child(7) {
-      background-image: url("./assets/devilcore/devilCore7.jpg");
+      background-image: url("./assets/egirl/eGirl7.jpg");
       background-size: cover;
   }
+  .accordion ul li:nth-child(8) {
+    background-image: url("./assets/egirl/eGirl8.jpg");
+    background-size: cover;
+}
+.accordion ul li:nth-child(9) {
+  background-image: url("./assets/egirl/eGirl9.jpg");
+  background-size: cover;
+}
   .accordion ul:hover li {
     width: 8%;
   }
   .accordion ul:hover li:hover {
-    width: 100%;
-  }
-  .accordion ul:hover li:hover a {
-    background: rgba(0, 0, 0, 0.4);
-  }
-  .accordion ul:hover li:hover a * {
-    opacity: 1;
-    transform: translateX(0);
+    width: 30%;
   }
   
   @media screen and (max-width: 375px) {

@@ -5,6 +5,92 @@ body{
 .title{
     text-align: center;
     font-size: 2.5rem;
+    padding-top: 30px;
+  padding-bottom: 30px;
+  }
+
+  .home{
+    padding-top: 30px;
+    text-align: center;
+    font-size: 1rem;
+    color: lightgrey;
+  }
+  
+  .home:hover{
+    color: black;
+  }
+
+  .colorMK{
+    display: block;
+    font-size: 1.5rem;
+    position: relative;
+    z-index: 3;
+    color:white;
+    text-decoration: none;
+    transition: all 200ms ease;
+  }
+
+  #MK1{
+    background-color: #a66859;
+    height: 2.5rem;
+    width: 100%;
+    padding: 15px 20px 15px;
+  }
+
+  #MK2{
+    background-color: #dd9a77;
+    height: 2.5rem;
+    width: 100%;
+    padding: 15px 20px 15px;
+  }
+
+  #MK3{
+    background-color: #817c69;
+    height: 2.5rem;
+    width: 100%;
+    padding: 15px 20px 15px;
+  }
+
+  #MK4{
+    background-color: #f5b247;
+    height: 2.5rem;
+    width: 100%;
+    padding: 15px 20px 15px;
+  }
+
+  #MK5{
+    background-color: #d5b69e;
+    height: 2.5rem;
+    width: 100%;
+    padding: 15px 20px 15px;
+  }
+
+  #MK6{
+    background-color: #a68a6f;
+    height: 2.5rem;
+    width: 100%;
+    padding: 15px 20px 15px;
+  }
+
+  #MK7{
+    background-color: #868b55;
+    height: 2.5rem;
+    width: 100%;
+    padding: 15px 20px 15px;
+  }
+
+  #MK8{
+    background-color: #7f6d63;
+    height: 2.5rem;
+    width: 100%;
+    padding: 15px 20px 15px;
+  }
+
+  #MK9{
+    background-color: #405e1d;
+    height: 2.5rem;
+    width: 100%;
+    padding: 15px 20px 15px;
   }
 
 .accordion {
@@ -34,20 +120,9 @@ body{
     display: block;
     overflow: hidden;
     width: 100%;
-  }
-  .accordion ul li div a {
-    display: block;
-    height: 250px;
-    width: 100%;
-    position: relative;
-    z-index: 3;
-    vertical-align: bottom;
-    padding: 15px 20px;
-    box-sizing: border-box;
-    color: #fff;
-    text-decoration: none;
     transition: all 200ms ease;
   }
+ 
   .accordion ul li div a * {
     opacity: 0;
     margin: 0;
@@ -60,17 +135,7 @@ body{
     transform: translateX(-20px);
     transition: all 400ms ease;
   }
-  .accordion ul li div a h2 {
-    text-overflow: clip;
-    font-size: 24px;
-    text-transform: uppercase;
-    margin-bottom: 2px;
-    top: 160px;
-  }
-  .accordion ul li div a p {
-    top: 160px;
-    font-size: 13.5px;
-  }
+
   .accordion ul li:nth-child(1) {
     background-image: url("./assets/morikei/moriKei1.png");
     background-size: cover;

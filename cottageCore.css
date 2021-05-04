@@ -5,6 +5,92 @@ body{
 .title{
   text-align: center;
   font-size: 2.5rem;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+
+.home{
+  padding-top: 30px;
+  text-align: center;
+  font-size: 1rem;
+  color: lightgrey;
+}
+
+.home:hover{
+  color: black;
+}
+
+.colorCC{
+  display: block;
+  font-size: 1.8rem;
+  position: relative;
+  z-index: 3;
+  color:black;
+  text-decoration: none;
+  transition: all 200ms ease;
+}
+
+#CC1{
+  background-color: #EDC726;
+  height: 2.5rem;
+  width: 100%;
+  padding: 15px 20px 15px;
+}
+
+#CC2{
+  background-color: #8B5B2B;
+  height: 2.5rem;
+  width: 100%;
+  padding: 15px 20px 15px;
+}
+
+#CC3{
+  background-color: #EBD2B7;
+  height: 2.5rem;
+  width: 100%;
+  padding: 15px 20px 15px;
+}
+
+#CC8{
+  background-color: #E9DF96;
+  height: 2.5rem;
+  width: 100%;
+  padding: 15px 20px 15px;
+}
+
+#CC4{
+  background-color: #D18B89;
+  height: 2.5rem;
+  width: 100%;
+  padding: 15px 20px 15px;
+}
+
+#CC5{
+  background-color: #FEEAC5;
+  height: 2.5rem;
+  width: 100%;
+  padding: 15px 20px 15px;
+}
+
+#CC6{
+  background-color: #844638;
+  height: 2.5rem;
+  width: 100%;
+  padding: 15px 20px 15px;
+}
+
+#CC7{
+  background-color: #9C774C;
+  height: 2.5rem;
+  width: 100%;
+  padding: 15px 20px 15px;
+}
+
+#CC9{
+  background-color: #878326;
+  height: 2.5rem;
+  width: 100%;
+  padding: 15px 20px 15px;
 }
 
 .accordion {
@@ -35,20 +121,9 @@ body{
   display: block;
   overflow: hidden;
   width: 100%;
-}
-.accordion ul li div a {
-  display: block;
-  height: 250px;
-  width: 100%;
-  position: relative;
-  z-index: 3;
-  vertical-align: bottom;
-  padding: 15px 20px;
-  box-sizing: border-box;
-  color: #fff;
-  text-decoration: none;
   transition: all 200ms ease;
 }
+
 .accordion ul li div a * {
   opacity: 0;
   margin: 0;
@@ -61,17 +136,7 @@ body{
   transform: translateX(-20px);
   transition: all 400ms ease;
 }
-.accordion ul li div a h2 {
-  text-overflow: clip;
-  font-size: 24px;
-  text-transform: uppercase;
-  margin-bottom: 2px;
-  top: 160px;
-}
-.accordion ul li div a p {
-  top: 160px;
-  font-size: 13.5px;
-}
+
 .accordion ul li:nth-child(1) {
   background-image: url("./assets/cottagecore/cottageCore1.jpg");
   background-size: cover;
@@ -120,11 +185,4 @@ body{
   body {
     margin: 0;
   }
-  /* .accordion ul li, .accordion ul li:hover, .accordion ul:hover li, .accordion ul:hover li:hover {
-    position: relative;
-    display: table;
-    table-layout: fixed;
-    width: 100%;
-    transition: none;
-  } */
 }

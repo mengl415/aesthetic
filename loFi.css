@@ -1,125 +1,186 @@
-body{
-    font-family: "Lemon", cursive;
+body {
+  font-family: "Lemon", cursive;
 }
 
-.title{
-    text-align: center;
-    font-size: 2.5rem;
-  }
+.title {
+  text-align: center;
+  font-size: 2rem;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.home{
+  padding-top: 30px;
+  text-align: center;
+  font-size: 1rem;
+  color: lightgrey;
+}
+
+.home:hover{
+  color: black;
+}
+
+.colorLF {
+  display: block;
+  font-size: 1.5rem;
+  position: relative;
+  z-index: 3;
+  color: white;
+  text-decoration: none;
+  transition: all 200ms ease;
+}
+
+#LF1 {
+  background-color: #fa76b2;
+  height: 2.5rem;
+  width: 100%;
+  padding: 15px 20px 15px;
+}
+
+#LF2 {
+  background-color: #2758d1;
+  height: 2.5rem;
+  width: 100%;
+  padding: 15px 20px 15px;
+}
+
+#LF3 {
+  background-color: #df7545;
+  height: 2.5rem;
+  width: 100%;
+  padding: 15px 20px 15px;
+}
+
+#LF4 {
+  background-color: #597ca2;
+  height: 2.5rem;
+  width: 100%;
+  padding: 15px 20px 15px;
+}
+
+#LF5 {
+  background-color: #46b87a;
+  height: 2.5rem;
+  width: 100%;
+  padding: 15px 20px 15px;
+}
+
+#LF6 {
+  background-color: #c791cb;
+  height: 2.5rem;
+  width: 100%;
+  padding: 15px 20px 15px;
+}
+
+#LF7 {
+  background-color: #fc0f9f;
+  height: 2.5rem;
+  width: 100%;
+  padding: 15px 20px 15px;
+}
+
+#LF8 {
+  background-color: #f19eb0;
+  height: 2.5rem;
+  width: 100%;
+  padding: 15px 20px 15px;
+}
+
+#LF9 {
+  background-color: #39acc1;
+  height: 2.5rem;
+  width: 100%;
+  padding: 15px 20px 15px;
+}
 
 .accordion {
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-    margin: 0 auto;
-  }
-  .accordion ul {
-    width: 100%;
-    display: table;
-    table-layout: fixed;
-    margin: 0;
-    padding: 0;
-  }
-  .accordion ul li {
-    display: table-cell;
-    vertical-align: bottom;
-    position: relative;
-    width: 14.286%;
-    height: 75vh;
-    background-repeat: no-repeat;
-    background-position: center center;
-    transition: all 500ms ease;
-  }
-  .accordion ul li div {
-    display: block;
-    overflow: hidden;
-    width: 100%;
-  }
-  .accordion ul li div a {
-    display: block;
-    height: 250px;
-    width: 100%;
-    position: relative;
-    z-index: 3;
-    vertical-align: bottom;
-    padding: 15px 20px;
-    box-sizing: border-box;
-    color: #fff;
-    text-decoration: none;
-    transition: all 200ms ease;
-  }
-  .accordion ul li div a * {
-    opacity: 0;
-    margin: 0;
-    width: 100%;
-    text-overflow: ellipsis;
-    position: relative;
-    z-index: 5;
-    white-space: nowrap;
-    overflow: hidden;
-    transform: translateX(-20px);
-    transition: all 400ms ease;
-  }
-  .accordion ul li div a h2 {
-    text-overflow: clip;
-    font-size: 24px;
-    text-transform: uppercase;
-    margin-bottom: 2px;
-    top: 160px;
-  }
-  .accordion ul li div a p {
-    top: 160px;
-    font-size: 13.5px;
-  }
-  .accordion ul li:nth-child(1) {
-    background-image: url("./assets/lofi/lofi1.jpg");
-    background-size: cover;
-  }
-  .accordion ul li:nth-child(2) {
-    background-image: url("./assets/lofi/lofi2.jpg");
-      background-size: cover;
-  }
-  .accordion ul li:nth-child(3) {
-    background-image: url("./assets/lofi/lofi3.jpg");
-    background-size: cover;
-  }
-  .accordion ul li:nth-child(4) {
-    background-image: url("./assets/lofi/lofi4.jpg");
-    background-size: cover;
-  }
-  .accordion ul li:nth-child(5) {
-    background-image: url("./assets/lofi/lofi5.jpg");
-    background-size: cover;
-  }
-  .accordion ul li:nth-child(6) {
-    background-image: url("./assets/lofi/lofi6.jpg");
-    background-size: cover;
-  }
-  .accordion ul li:nth-child(7) {
-      background-image: url("./assets/lofi/lofi7.jpg");
-      background-size: cover;
-  }
-  .accordion ul li:nth-child(8) {
-    background-image: url("./assets/lofi/loFi8.jpg");
-    background-size: cover;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  margin: 0 auto;
+}
+.accordion ul {
+  width: 100%;
+  display: table;
+  table-layout: fixed;
+  margin: 0;
+  padding: 0;
+}
+.accordion ul li {
+  display: table-cell;
+  vertical-align: bottom;
+  position: relative;
+  width: 14.286%;
+  height: 75vh;
+  background-repeat: no-repeat;
+  background-position: center center;
+  transition: all 500ms ease;
+}
+.accordion ul li div {
+  display: block;
+  overflow: hidden;
+  width: 100%;
+  transition: all 200ms ease;
+}
+
+.accordion ul li div a * {
+  opacity: 0;
+  margin: 0;
+  width: 100%;
+  text-overflow: ellipsis;
+  position: relative;
+  z-index: 5;
+  white-space: nowrap;
+  overflow: hidden;
+  transform: translateX(-20px);
+  transition: all 400ms ease;
+}
+
+.accordion ul li:nth-child(1) {
+  background-image: url("./assets/lofi/lofi1.jpg");
+  background-size: cover;
+}
+.accordion ul li:nth-child(2) {
+  background-image: url("./assets/lofi/lofi2.jpg");
+  background-size: cover;
+}
+.accordion ul li:nth-child(3) {
+  background-image: url("./assets/lofi/lofi3.jpg");
+  background-size: cover;
+}
+.accordion ul li:nth-child(4) {
+  background-image: url("./assets/lofi/lofi4.jpg");
+  background-size: cover;
+}
+.accordion ul li:nth-child(5) {
+  background-image: url("./assets/lofi/lofi5.jpg");
+  background-size: cover;
+}
+.accordion ul li:nth-child(6) {
+  background-image: url("./assets/lofi/lofi6.jpg");
+  background-size: cover;
+}
+.accordion ul li:nth-child(7) {
+  background-image: url("./assets/lofi/lofi7.jpg");
+  background-size: cover;
+}
+.accordion ul li:nth-child(8) {
+  background-image: url("./assets/lofi/loFi8.jpg");
+  background-size: cover;
 }
 .accordion ul li:nth-child(9) {
   background-image: url("./assets/lofi/loFi9.jpg");
   background-size: cover;
 }
-  .accordion ul:hover li {
-    width: 8%;
-  }
-  .accordion ul:hover li:hover {
-    width: 30%;
-  }
-  
-  @media screen and (max-width: 375px) {
-    body {
-      margin: 0;
-    }
-  }
+.accordion ul:hover li {
+  width: 8%;
+}
+.accordion ul:hover li:hover {
+  width: 30%;
+}
 
-  
-
-  
+@media screen and (max-width: 375px) {
+  body {
+    margin: 0;
+  }
+}

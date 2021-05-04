@@ -37,3 +37,7 @@ function spacePage(){
 function vaporwavePage(){
     window.open("vaporwave.html", "_blank");
 }
+
+function homePage(){
+    window.open("index.html", "_blank");
+}

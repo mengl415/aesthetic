@@ -1,10 +1,97 @@
 body{
-  font-family: 'Eagle Lake', cursive;
+  font-family: "Rye", cursive;
 }
 
 .title{
   text-align: center;
-  font-size: 2.5rem;
+  font-size: 2.2rem;
+  font-weight: 400;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.home{
+  padding-top: 30px;
+  text-align: center;
+  font-size: 1rem;
+  color: lightgrey;
+}
+
+.home:hover{
+  color: black;
+}
+
+.colorDA{
+  display: block;
+  font-size: 1.5rem;
+  position: relative;
+  z-index: 3;
+  color:white;
+  text-decoration: none;
+  transition: all 200ms ease;
+}
+
+#DA1{
+  background-color: #533c2c;
+  height: 2.5rem;
+  width: 100%;
+  padding: 15px 20px 15px;
+}
+
+#DA2{
+  background-color: #ac9d8a;
+  height: 2.5rem;
+  width: 100%;
+  padding: 15px 20px 15px;
+}
+
+#DA3{
+  background-color: #383222;
+  height: 2.5rem;
+  width: 100%;
+  padding: 15px 20px 15px;
+}
+
+#DA4{
+  background-color: #b4aca9;
+  height: 2.5rem;
+  width: 100%;
+  padding: 15px 20px 15px;
+}
+
+#DA5{
+  background-color: #645a4e;
+  height: 2.5rem;
+  width: 100%;
+  padding: 15px 20px 15px;
+}
+
+#DA6{
+  background-color: #1f261f;
+  height: 2.5rem;
+  width: 100%;
+  padding: 15px 20px 15px;
+}
+
+#DA7{
+  background-color: #3a1e19;
+  height: 2.5rem;
+  width: 100%;
+  padding: 15px 20px 15px;
+}
+
+#DA8{
+  background-color: #685d57;
+  height: 2.5rem;
+  width: 100%;
+  padding: 15px 20px 15px;
+}
+
+#DA9{
+  background-color: #211f20;
+  height: 2.5rem;
+  width: 100%;
+  padding: 15px 20px 15px;
 }
 
 .accordion {
@@ -34,20 +121,9 @@ body{
     display: block;
     overflow: hidden;
     width: 100%;
-  }
-  .accordion ul li div a {
-    display: block;
-    height: 250px;
-    width: 100%;
-    position: relative;
-    z-index: 3;
-    vertical-align: bottom;
-    padding: 15px 20px;
-    box-sizing: border-box;
-    color: #fff;
-    text-decoration: none;
     transition: all 200ms ease;
   }
+ 
   .accordion ul li div a * {
     opacity: 0;
     margin: 0;
@@ -60,17 +136,7 @@ body{
     transform: translateX(-20px);
     transition: all 400ms ease;
   }
-  .accordion ul li div a h2 {
-    text-overflow: clip;
-    font-size: 24px;
-    text-transform: uppercase;
-    margin-bottom: 2px;
-    top: 160px;
-  }
-  .accordion ul li div a p {
-    top: 160px;
-    font-size: 13.5px;
-  }
+  
   .accordion ul li:nth-child(1) {
     background-image: url("./assets/darkaca/darkAcademia1.png");
     background-size: cover;
@@ -119,13 +185,7 @@ body{
     body {
       margin: 0;
     }
-    /* .accordion ul li, .accordion ul li:hover, .accordion ul:hover li, .accordion ul:hover li:hover {
-      position: relative;
-      display: table;
-      table-layout: fixed;
-      width: 100%;
-      transition: none;
-    } */
+ 
   }
 
   

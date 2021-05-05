@@ -159,9 +159,11 @@ var r4 = document.getElementById("rect4");
 var r5 = document.getElementById("rect5");
 var r6 = document.getElementById("rect6");
 var r7 = document.getElementById("rect7");
+var r8 = document.getElementById("rect8");
+var r9 = document.getElementById("rect9");
 
 //array of rectangles
-var rectArray = [r1, r2, r3, r4, r5, r6, r7];
+var rectArray = [r1, r2, r3, r4, r5, r6, r7, r8, r9];
 
 //random color from array of colors
 var ccColor = ccArray[Math.floor(Math.random() * 9)];
@@ -182,24 +184,43 @@ console.log(fcColor);
 var lfColor = lfArray[Math.floor(Math.random() * 9)];
 console.log(lfColor);
 
+var mkColor = mkArray[Math.floor(Math.random() * 9)];
+console.log(mkColor);
+
+var scColor = scArray[Math.floor(Math.random() * 9)];
+console.log(scColor);
+
+var vColor = vArray[Math.floor(Math.random() * 9)];
+console.log(vColor);
+
+
 //random index for array of rectangles
-var ccRectIndex = Math.floor(Math.random() * 7);
+var ccRectIndex = Math.floor(Math.random() * 9);
 console.log(ccRectIndex);
 
-var daRectIndex = Math.floor(Math.random() * 7);
+var daRectIndex = Math.floor(Math.random() * 9);
 console.log(daRectIndex);
 
-var dcRectIndex = Math.floor(Math.random() * 7);
+var dcRectIndex = Math.floor(Math.random() * 9);
 console.log(dcRectIndex);
 
-var egRectIndex = Math.floor(Math.random() * 7);
+var egRectIndex = Math.floor(Math.random() * 9);
 console.log(egRectIndex);
 
-var fcRectIndex = Math.floor(Math.random() * 7);
+var fcRectIndex = Math.floor(Math.random() * 9);
 console.log(fcRectIndex);
 
-var lfRectIndex = Math.floor(Math.random() * 7);
+var lfRectIndex = Math.floor(Math.random() * 9);
 console.log(lfRectIndex);
+
+var mkRectIndex = Math.floor(Math.random() * 9);
+console.log(mkRectIndex);
+
+var scRectIndex = Math.floor(Math.random() * 9);
+console.log(scRectIndex);
+
+var vRectIndex = Math.floor(Math.random() * 9);
+console.log(vRectIndex);
 
 //create function that changes the background color, shadow, and displays it
 function ccRectColor() {
@@ -208,42 +229,63 @@ function ccRectColor() {
   newccRect.style.backgroundColor = ccColor;
   newccRect.style.boxShadow = "0 0 50px 50px" + ccColor;
   newccRect.style.display = "block";
-}
+};
 
 function daRectColor() {
   var newdaRect = rectArray[daRectIndex];
   newdaRect.style.backgroundColor = daColor;
   newdaRect.style.boxShadow = "0 0 50px 50px" + daColor;
   newdaRect.style.display = "block";
-}
+};
 
 function dcRectColor() {
   var newdcRect = rectArray[dcRectIndex];
   newdcRect.style.backgroundColor = dcColor;
   newdcRect.style.boxShadow = "0 0 50px 50px" + dcColor;
   newdcRect.style.display = "block";
-}
+};
 
 function egRectColor() {
   var newegRect = rectArray[egRectIndex];
   newegRect.style.backgroundColor = egColor;
   newegRect.style.boxShadow = "0 0 50px 50px" + egColor;
   newegRect.style.display = "block";
-}
+};
 
 function fcRectColor() {
     var newfcRect = rectArray[fcRectIndex];
     newfcRect.style.backgroundColor = fcColor;
     newfcRect.style.boxShadow = "0 0 50px 50px" + fcColor;
     newfcRect.style.display = "block";
-  }
+  };
 
 function lfRectColor() {
     var newlfRect = rectArray[lfRectIndex];
     newlfRect.style.backgroundColor = lfColor;
     newlfRect.style.boxShadow = "0 0 50px 50px" + lfColor;
     newlfRect.style.display = "block";
-  }
+  };
+
+function mkRectColor() {
+    var newmkRect = rectArray[mkRectIndex];
+    newmkRect.style.backgroundColor = mkColor;
+    newmkRect.style.boxShadow = "0 0 50px 50px" + mkColor;
+    newmkRect.style.display = "block";
+  };
+
+function scRectColor() {
+    var newscRect = rectArray[scRectIndex];
+    newscRect.style.backgroundColor = scColor;
+    newscRect.style.boxShadow = "0 0 50px 50px" + scColor;
+    newscRect.style.display = "block";
+  };
+
+function vRectColor() {
+    var newvRect = rectArray[vRectIndex];
+    newvRect.style.backgroundColor = vColor;
+    newvRect.style.boxShadow = "0 0 50px 50px" + vColor;
+    newvRect.style.display = "block";
+  };
 
 //create function that reverts it after mouseout
 function ccRectBack() {
@@ -276,13 +318,28 @@ function lfRectBack() {
     newlfRect.style.display = "none";
   };
 
-//event listener for hover
+function mkRectBack() {
+    var newmkRect = rectArray[mkRectIndex];
+    newmkRect.style.display = "none";
+  };
+
+function scRectBack() {
+    var newscRect = rectArray[scRectIndex];
+    newscRect.style.display = "none";
+  };
+
+function vRectBack() {
+    var newvRect = rectArray[vRectIndex];
+    newvRect.style.display = "none";
+  };
+
+
 document.getElementById("cottageCore").addEventListener("mouseover", function () {
     // alert("mouseover")
     ccRectColor();
   });
 
-//event listener for mouseout
+
 document.getElementById("cottageCore").addEventListener("mouseout", function () {
     // alert("mouseout")
     ccRectBack();
@@ -341,4 +398,37 @@ document.getElementById("loFi").addEventListener("mouseover", function () {
 document.getElementById("loFi").addEventListener("mouseout", function () {
     // alert("mouseout")
     lfRectBack();
+  });
+
+
+document.getElementById("moriKei").addEventListener("mouseover", function () {
+    // alert("mouseover")
+    mkRectColor();
+  });
+  
+document.getElementById("moriKei").addEventListener("mouseout", function () {
+    // alert("mouseout")
+    mkRectBack();
+  });
+
+
+document.getElementById("spaceCore").addEventListener("mouseover", function () {
+    // alert("mouseover")
+    scRectColor();
+  });
+  
+document.getElementById("spaceCore").addEventListener("mouseout", function () {
+    // alert("mouseout")
+    scRectBack();
+  });
+
+
+document.getElementById("vaporwave").addEventListener("mouseover", function () {
+    // alert("mouseover")
+    vRectColor();
+  });
+  
+document.getElementById("vaporwave").addEventListener("mouseout", function () {
+    // alert("mouseout")
+    vRectBack();
   });

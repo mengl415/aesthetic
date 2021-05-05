@@ -105,6 +105,28 @@ h2 {
   display: none;
 }
 
+#rect8{
+  position: absolute;
+  top: 10%;
+  left: 0%;
+  height: 10vh;
+  width: 60vw;
+  background-color: orange;
+  box-shadow: 0 0 50px 50px orange;
+  display: none;
+}
+
+#rect9{
+  position: absolute;
+  top: 0%;
+  left: calc(100% - 35vw);
+  height: 80vh;
+  width: 3vw;
+  background-color: lightseagreen;
+  box-shadow: 0 0 50px 50px lightseagreen;
+  display: none;
+}
+
 .title {
   text-align: center;
   font-family: "Inconsolata", monospace;

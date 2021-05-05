@@ -63,13 +63,15 @@ console.log(ccRectIndex);
 
 var newRect = ccRect[ccRectIndex];
 
+document.getElementById("cottageCore").addEventListener("mouseover", ccRectColor());
+
 function ccRectColor(){
     newRect.style.backgroundColor = ccColor;
+    newRect.style.boxShadow = ccColor;
     newRect.style.display = "block";
 }
 
 
-document.getElementById("cottageCore").addEventListener("mouseover", ccRectColor());
 
 
 

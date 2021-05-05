@@ -170,12 +170,36 @@ console.log(ccColor);
 var daColor = daArray[Math.floor(Math.random() * 9)];
 console.log(daColor);
 
+var dcColor = dcArray[Math.floor(Math.random() * 9)];
+console.log(dcColor);
+
+var egColor = egArray[Math.floor(Math.random() * 9)];
+console.log(egColor);
+
+var fcColor = fcArray[Math.floor(Math.random() * 9)];
+console.log(fcColor);
+
+var lfColor = lfArray[Math.floor(Math.random() * 9)];
+console.log(lfColor);
+
 //random index for array of rectangles
 var ccRectIndex = Math.floor(Math.random() * 7);
 console.log(ccRectIndex);
 
 var daRectIndex = Math.floor(Math.random() * 7);
 console.log(daRectIndex);
+
+var dcRectIndex = Math.floor(Math.random() * 7);
+console.log(dcRectIndex);
+
+var egRectIndex = Math.floor(Math.random() * 7);
+console.log(egRectIndex);
+
+var fcRectIndex = Math.floor(Math.random() * 7);
+console.log(fcRectIndex);
+
+var lfRectIndex = Math.floor(Math.random() * 7);
+console.log(lfRectIndex);
 
 //create function that changes the background color, shadow, and displays it
 function ccRectColor() {
@@ -193,6 +217,34 @@ function daRectColor() {
   newdaRect.style.display = "block";
 }
 
+function dcRectColor() {
+  var newdcRect = rectArray[dcRectIndex];
+  newdcRect.style.backgroundColor = dcColor;
+  newdcRect.style.boxShadow = "0 0 50px 50px" + dcColor;
+  newdcRect.style.display = "block";
+}
+
+function egRectColor() {
+  var newegRect = rectArray[egRectIndex];
+  newegRect.style.backgroundColor = egColor;
+  newegRect.style.boxShadow = "0 0 50px 50px" + egColor;
+  newegRect.style.display = "block";
+}
+
+function fcRectColor() {
+    var newfcRect = rectArray[fcRectIndex];
+    newfcRect.style.backgroundColor = fcColor;
+    newfcRect.style.boxShadow = "0 0 50px 50px" + fcColor;
+    newfcRect.style.display = "block";
+  }
+
+function lfRectColor() {
+    var newlfRect = rectArray[lfRectIndex];
+    newlfRect.style.backgroundColor = lfColor;
+    newlfRect.style.boxShadow = "0 0 50px 50px" + lfColor;
+    newlfRect.style.display = "block";
+  }
+
 //create function that reverts it after mouseout
 function ccRectBack() {
   var newccRect = rectArray[ccRectIndex];
@@ -203,6 +255,26 @@ function daRectBack() {
   var newdaRect = rectArray[daRectIndex];
   newdaRect.style.display = "none";
 }
+
+function dcRectBack() {
+  var newdcRect = rectArray[dcRectIndex];
+  newdcRect.style.display = "none";
+}
+
+function egRectBack() {
+  var newegRect = rectArray[egRectIndex];
+  newegRect.style.display = "none";
+}
+
+function fcRectBack() {
+    var newfcRect = rectArray[fcRectIndex];
+    newfcRect.style.display = "none";
+  };
+
+function lfRectBack() {
+    var newlfRect = rectArray[lfRectIndex];
+    newlfRect.style.display = "none";
+  };
 
 //event listener for hover
 document.getElementById("cottageCore").addEventListener("mouseover", function () {
@@ -216,12 +288,57 @@ document.getElementById("cottageCore").addEventListener("mouseout", function () 
     ccRectBack();
   });
 
+
 document.getElementById("darkA").addEventListener("mouseover", function () {
-    // alert("mouseover")
-    daRectColor();
-  });
+  // alert("mouseover")
+  daRectColor();
+});
 
 document.getElementById("darkA").addEventListener("mouseout", function () {
+  // alert("mouseout")
+  daRectBack();
+});
+
+
+document.getElementById("devilCore").addEventListener("mouseover", function () {
+  // alert("mouseover")
+  dcRectColor();
+});
+
+document.getElementById("devilCore").addEventListener("mouseout", function () {
+  // alert("mouseout")
+  dcRectBack();
+});
+
+
+document.getElementById("eGirl").addEventListener("mouseover", function () {
+    // alert("mouseover")
+    egRectColor();
+  });
+  
+document.getElementById("eGirl").addEventListener("mouseout", function () {
     // alert("mouseout")
-    daRectBack();
+    egRectBack();
+  });
+
+
+document.getElementById("fairyCore").addEventListener("mouseover", function () {
+    // alert("mouseover")
+    fcRectColor();
+  });
+  
+document.getElementById("fairyCore").addEventListener("mouseout", function () {
+    // alert("mouseout")
+    fcRectBack();
+  });
+
+
+document.getElementById("loFi").addEventListener("mouseover", function () {
+    // alert("mouseover")
+    lfRectColor();
+  });
+  
+document.getElementById("loFi").addEventListener("mouseout", function () {
+    // alert("mouseout")
+    lfRectBack();
   });

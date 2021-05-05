@@ -65,7 +65,7 @@ var newRect = ccRect[ccRectIndex];
 
 function ccRectColor(){
     newRect.style.backgroundColor = ccColor;
-    newRect.style.display = "none";
+    newRect.style.display = "block";
 }
 
 

@@ -180,8 +180,19 @@ body{
   }
   
   @media screen and (max-width: 375px) {
-    body {
-      margin: 0;
+    .title{
+      font-size: 2rem;
+    }
+  
+    .colorMK{
+      font-size: 1.2rem;
+    }
+  
+    .accordion ul:hover li {
+      width: 5%;
+    }
+    .accordion ul:hover li:hover {
+      width: 100%;
     }
   }
 

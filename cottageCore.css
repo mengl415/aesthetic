@@ -98,7 +98,6 @@ body{
   height: 100%;
   overflow: hidden;
   margin: 0 auto;
-  transform: none;
 }
 .accordion ul {
   width: 100%;
@@ -142,47 +141,38 @@ body{
 .accordion ul li:nth-child(1) {
   background-image: url("./assets/cottagecore/cottageCore1.jpg");
   background-size: cover;
-  transform: none;
 }
 .accordion ul li:nth-child(2) {
   background-image: url("./assets/cottagecore/cottageCore2.jpg");
     background-size: cover;
-    transform: none;
 }
 .accordion ul li:nth-child(3) {
   background-image: url("./assets/cottagecore/cottageCore3.jpg");
   background-size: cover;
-  transform: none;
 }
 .accordion ul li:nth-child(4) {
   background-image: url("./assets/cottagecore/cottageCore4.jpg");
   background-size: cover;
-  transform: none;
 }
 .accordion ul li:nth-child(5) {
   background-image: url("./assets/cottagecore/cottageCore5.jpg");
   background-size: cover;
-  transform: none;
 }
 .accordion ul li:nth-child(6) {
   background-image: url("./assets/cottagecore/cottageCore6.jpg");
   background-size: cover;
-  transform: none;
 }
 .accordion ul li:nth-child(7) {
     background-image: url("./assets/cottagecore/cottageCore7.jpg");
     background-size: cover;
-    transform: none;
 }
 .accordion ul li:nth-child(8) {
   background-image: url("./assets/cottagecore/cottageCore8.jpg");
   background-size: cover;
-  transform: none;
 }
 .accordion ul li:nth-child(9) {
   background-image: url("./assets/cottagecore/cottageCore9.jpg");
   background-size: cover;
-  transform: none;
 }
 .accordion ul:hover li {
   width: 8%;
@@ -197,28 +187,9 @@ body{
     font-size: 2rem;
   }
 
-  .accordion {
-    transform: rotate(90deg);
+  .colorCC{
+    font-size: 1.2rem;
   }
-
-
-  /* .accordion ul li {
-    display: table-cell;
-    vertical-align: bottom;
-    position: relative;
-    width: 100vh;
-    height: 14.286%;
-    background-repeat: no-repeat;
-    background-position: center center;
-    transition: all 500ms ease;
-  }
-  .accordion ul li div {
-    display: block;
-    overflow: hidden;
-    height: 100%;
-    width: auto;
-    transition: all 200ms ease;
-  } */
 
   .accordion ul:hover li {
     width: 5%;

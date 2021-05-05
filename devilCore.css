@@ -196,3 +196,41 @@ body {
     width: 100%;
   }
 }
+@media screen and (min-width: 376px) and (max-width: 414px){
+  .title{
+    font-size: 2rem;
+  }
+
+  .colorCC{
+    font-size: 1.2rem;
+  }
+
+  .accordion ul:hover li {
+    width: 5%;
+  }
+  .accordion ul:hover li:hover {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 415px) and (max-width: 840px){
+  .title{
+    font-size: 2.3rem;
+  }
+
+  .accordion ul:hover li {
+    width: 10%;
+  }
+  .accordion ul:hover li:hover {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 841px) and (max-width: 70%){
+  .accordion ul:hover li {
+    width: 5vw;
+  }
+  .accordion ul:hover li:hover {
+    width: 80%;
+  }
+}
